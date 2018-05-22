@@ -4,11 +4,11 @@ module.exports = function (grunt) {
             options: {
                 configFile: "eslint.json"
             },
-            target: [ "neutron-uol-lib.js", "neutron-uol-lib.test.js" ],
+            target: [ "kepleruuid-url.js", "kepleruuid-url.test.js" ],
         },
         mochaTest: {
             "kuuid": {
-                src: ["neutron-uol-lib.test.js"]
+                src: ["kepleruuid-url.test.js"]
             },
             options: {
                 reporter: "spec"
@@ -20,12 +20,12 @@ module.exports = function (grunt) {
                 report: "min"
             },
             dist: {
-                src:  "neutron-uol-lib.js",
-                dest: "neutron-uol-lib.min.js"
+                src:  "kepleruuid-url.js",
+                dest: "kepleruuid-url.min.js"
             }
         },
         clean: {
-            clean: ["neutron-uol-lib.min.js"],
+            clean: ["kepleruuid-url.min.js"],
             distclean: [ "node_modules" ]
         }
     });
