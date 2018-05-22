@@ -1,6 +1,6 @@
 {
-    "name": "neutron-uol-lib",
-    "homepage":    "http://github.com/benchlab/neutron-uol-lib",
+    "name": "kepleruuid-url",
+    "homepage":    "http://github.com/benchlab/kepleruuid-url",
     "description": "Neutron's Library For The Uniform Object Locator Service (UOL), Utilizing The KeplerUUID Library.",
     "version":     "1.0.0",
     "license":     "MIT",
@@ -14,13 +14,13 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/benchlab/Neutron-UOL.git"
+        "url": "git://github.com/benchlab/kepleruuid-url.git"
     },
     "bugs": {
-        "url": "http://github.com/benchlab/Neutron-UOL/issues"
+        "url": "http://github.com/benchlab/kepleruuid-url/issues"
     },
-    "main":  "./neutron-uol-lib.js",
-    "types": "./neutron-uol-lib.d.ts",
+    "main":  "./kepleruuid-url.js",
+    "types": "./kepleruuid-url.d.ts",
     "devDependencies": {
         "grunt":                "~1.0.2",
         "grunt-cli":            "~1.2.0",
