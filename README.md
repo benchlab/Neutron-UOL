@@ -1,6 +1,17 @@
 # KeplerUUID-URL
 Kepler's Uniform Resource Locator (URL) Utilizing Kepler UUIDs. 
 
+## Installation 
+
+### Install with Yarn
+```
+yarn add kepleruuid-url
+```
+
+### Install with NPM
+```
+npm i kepleruuid-url --save
+```
 
 ## Examples Of Usage
 
